@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Type", runtime.NumGoroutine())
+	fmt.Println("runtime", runtime.NumGoroutine())
 }
